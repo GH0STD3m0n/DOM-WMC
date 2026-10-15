@@ -1,3 +1,10 @@
 p {
     text-align: left;
+    color: black;
+}
+
+*{
+    background-color: darkcyan;
+    font-family: "Comic Sans MS", cursive;
+    justify-content: center;
 }
