@@ -2,7 +2,7 @@
 
 # 1. Webseite erstellen
 
-# 2. Rezept machen
+# 2. Rezept machen (Ist im "Rezept" Branch!)
 
 # 3. Seite mit CSS verschönern
 
