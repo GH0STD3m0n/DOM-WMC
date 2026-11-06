@@ -2,11 +2,11 @@
 
 # 1. Webseite erstellen
 
-# 2. Rezept machen (Ist im "Rezept" Branch!)
+# 2. Rezept machen
 
 # 3. Seite mit CSS verschönern
 
-# 4. IT-Zitate Webseite (In der "IT-Zitate" Branch!)
+# 4. IT-Zitate Webseite
 
 # This Repo is a homework saver, since our Professor is asking us to do so.
 
