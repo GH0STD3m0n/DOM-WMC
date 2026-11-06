@@ -1,0 +1,7 @@
+/* Apply blur to the image */
+.card-img-top image{
+    filter: blur(200px);
+    -webkit-filter: blur(8px); /* Safari/Chrome */
+    transition: filter 0.3s ease;
+}
+
