@@ -4,4 +4,7 @@
     -webkit-filter: blur(8px); /* Safari/Chrome */
     transition: filter 0.3s ease;
 }
+#live-clock{
+    text-align: right;
+}
 

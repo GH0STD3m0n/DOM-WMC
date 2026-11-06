@@ -9,14 +9,14 @@
 </head>
 <body>
 <header>
-    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
         <div class="container-fluid">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="collapsibleNavbar">
                 <ul class="navbar-nav">
-                    <li class="nav-item">
+                    <li class="nav-item text-white">
                         <a class="nav-link" href="Rezept/index.html">Rezept</a>
                     </li>
                     <li class="nav-item">
@@ -27,9 +27,10 @@
                     </li>
                 </ul>
             </div>
+            <span id="live-clock" class="text-white me-3"></span>
         </div>
     </nav>
-    <div class="container-fluid p-5 bg-primary text-white text-center">
+    <div class="container-fluid p-5 bg-danger text-white text-center">
         <h1>Willkommen auf meiner Haupt-Webseite</h1>
         <h4>Hier werden alle Webseiten die als Aufgaben mir aufgetragen wurden in einer Ganzen Webseite zusammengepackt</h4>
         <p>P.S. Die Webseite wird in Zukunft noch schöner Aussehen ;)</p>
@@ -74,13 +75,27 @@
         <div class="container mt-1 text-left">
             <h2>Hier ist der Link zu meinem Github WMC -> <a href="https://github.com/GH0STD3m0n/DOM-WMC">DOM-WMC</a> </h2>
         </div>
+    </div>
 </main><br>
 
 <footer>
     <div class="container mt-5 text-center">
     <h3>© Benjamin Dominkovic, 3BAIF</h3>
-    <img src="spengergasse%20(1).jpg">
+    <img src="spengergasse%20(1).jpg" alt="Spengergasse 1">
     </div>
 </footer><br>
 </body>
+<script>
+    const clockElement = document.getElementById('live-clock');
+
+    function updateClock() {
+        const now = new Date();
+        // Format as 'MM/DD/YYYY, HH:MM:SS'
+        clockElement.textContent = now.toLocaleString('de-DE');
+    }
+
+    // Update immediately, then every second
+    updateClock();
+    setInterval(updateClock, 1000);
+</script>
 </html>
