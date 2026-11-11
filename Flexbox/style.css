@@ -6,6 +6,10 @@ body {
 .product-container {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly; /* or space-between */
+    align-items: flex-start;
+    gap: 1rem;
 }
 .product-card {
      background-color: #fff;
